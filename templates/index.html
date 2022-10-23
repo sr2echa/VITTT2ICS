@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VITTT2ICS</title>
+</head>
+<body>
+    <form action="/get" method="get">
+        <textarea name="data" id="" cols="30" rows="10" required></textarea>
+        <input type="date" name="startDate" required>
+        <input type="date" name="endDate" required>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+<script>
+    document.getElementById("submit").addEventListener("click", function(){
+        window.location.href = window.location.href+"/get?data=" + document.getElementById("data").value + "&startDate=" + document.getElementById("startDate").value + "&endDate=" + document.getElementById("endDate").value;
+    })
+
+</script>
+
+</html>
