@@ -11,14 +11,14 @@
 
 > Now your `Timetable.ics` will be downloaded. Use it with your favourite calendar provider 
 
-_video soon:tm:_
+[VITTT2ICS.webm](https://user-images.githubusercontent.com/65058816/197452708-344c3a43-d88e-4948-9135-09e28e99f68c.webm)
 
 ### ✅ To Do
 
 - [ ] API
 - [ ] Native "Add to Google Calendar" Optiom
 - [ ] Academic calendar sync
-- [ ] Better UI + Ease of use
+- [ ] Intutive UI + Ease of use
 
 ### 🐞 Known Bugs
 > None
