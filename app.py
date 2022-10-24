@@ -16,10 +16,14 @@ def get():
     rawData=request.args.get('data')
     startDate="-".join(request.args.get('startDate').split("-")[::-1])
     endDate="-".join(request.args.get('endDate').split("-")[::-1])
+
+    if request.args.get('fresher')=="true":
+        year="Fresher"
+    else:
+        year="Senior"
         
     #return "<samp>"+rawData+"</samp>"
 
-    year="Fresher"
 
     b = rawData.split("Total Number Of Credits")
     c = b[0]
